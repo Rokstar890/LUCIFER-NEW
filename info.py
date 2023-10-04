@@ -13,9 +13,6 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
 API_ID = int(environ['23762978'])
 API_HASH = environ['eff30dac5504a8660e69bfe19f668571']
 BOT_TOKEN = environ['6335802263:AAFB1gPJQDTtYfXkbi0mmLvYlDcXbEUHiYo']
@@ -82,9 +79,6 @@ SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "MdiskShortner.link")
 
 SHORT_URL = is_enabled((environ.get('SHORT_URL', "True")), True)
 
-
-TUTORIAL_LINK_2 = os.environ.get('TUTORIAL_LINK_2', 'https://youtu.be/k7DDXE530gA')
-TUTORIAL_LINK_1 = os.environ.get('TUTORIAL_LINK_1', 'https://youtu.be/5FtwNbg2iYU')
 TUTORIAL_LINK_2 = os.environ.get('TUTORIAL_LINK_2', 'https://t.me/Netflixvilla_india/46')
 TUTORIAL_LINK_1 = os.environ.get('TUTORIAL_LINK_1', 'https://t.me/Netflixvilla_india/46')
 
